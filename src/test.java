@@ -1,12 +1,16 @@
 import static org.junit.Assert.*;
 
-import org.junit.Test;
+import knapsack.problem.TesterAlgorithmPortfolio;
 
-public class test {
+public class Test {
 
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
-
+	@org.junit.Test(expected = IllegalArgumentException.class)
+	  public void Test() {
+		Test tester = new Test();
+	  }
+	
+	@org.junit.Test(expected = IllegalArgumentException.class)
+	  public void TesterAlgorithmPortfolio() {
+		TesterAlgorithmPortfolio tester = new TesterAlgorithmPortfolio();
+	  }
 }
